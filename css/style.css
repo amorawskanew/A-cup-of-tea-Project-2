@@ -100,8 +100,8 @@ body {
 }
 
 .max-height {
-    min-height: calc(100vh - 78px);
-    background: url("images/hero-teq 12.jpg") center/cover fixed no-repeat;
+    min-height: calc(100vh - 76px);
+    background: linear-gradient(var(--yellowTrans), var(--orangeTrans)), url("images/hero-teq 12.jpg") center/cover fixed no-repeat;
     position: relative;
     width: 100%;
     size: cover;
@@ -521,20 +521,30 @@ h3 {
 
 /*email*/
 
-.box {
-    margin-left: 10rem;
-    margin-top: 15rem;
+.hero {
+    background-image: url("Hero-tea7.jpg");
+    background-repeat: no-repeat;
+    background-image: cover;
+    width: 100%;
 }
 
-.pick {
+.max-height-email {
+    min-height: calc(100vh - 76px);
+    position: relative;
+    width: 100%;
+    size: cover;
+}
+
+.email {
     background-image: url("../images/p.green-tea1*.jpg");
     background-repeat: no-repeat;
-    size: cover;
-    background-position: relative;
+    background-image: cover;
 }
 
-.row {
+.row-email {
+    margin-left: 4rem;
     position: center;
+    background: linear-gradient(var(--yellowTrans), var(--orangeTrans)), url("images/hero-teq 12.jpg") center/cover fixed no-repeat;
 }
 
 .contact-heading {
@@ -545,7 +555,7 @@ h3 {
 }
 
 .center-form {
-    padding-top: 10px;
+    padding-top: 30%;
     margin: 0 auto;
     max-width: 70%;
 }
@@ -555,6 +565,16 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: var(--mainOrange);
     color: var(--mainWhite);
+    margin-left: 39%;
+    width: 70px;
+    border: 2 px var(--mainBlack);
+    border-radius: 7% 7% 7% 7%;
+}
+
+.btn2:hover {
+    color: var(--mainBlack);
+    border: 2 px var(--mainBlack);
+    background-color: var(--mainWhite);
 }
 
 
