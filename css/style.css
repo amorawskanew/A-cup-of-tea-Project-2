@@ -521,20 +521,21 @@ h3 {
 
 /*email*/
 
+.box {
+    margin-left: 10rem;
+    margin-top: 15rem;
+}
+
 .pick {
     background-image: url("../images/p.green-tea1*.jpg");
     background-repeat: no-repeat;
     size: cover;
+    background-position: relative;
 }
 
-
-/*.row {
-    margin: 0px;
+.row {
     position: center;
-    width: 100%;
-    height: 100%;
-    size: cover;
-}*/
+}
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -555,3 +556,6 @@ button[type="submit"] {
     background-color: var(--mainOrange);
     color: var(--mainWhite);
 }
+
+
+/* end of email*/
