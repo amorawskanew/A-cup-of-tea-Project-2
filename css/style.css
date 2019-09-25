@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+:root {
+    --mainOrange: #eb5f1fec;
+    --mainYellow: rgb(249, 228, 148);
+    --mainWhite: #fff;
+    --mainBlack: #000;
+    --yellowTrans: rgba(249, 228, 148, 0.5);
+    --orangeTrans: #eb5f1fec;
+    --mainGrey: rgb(238, 238, 238);
+    --mainGreen: rgb(46, 87, 22);
+}
+
+body {
+    font-family: "Kaushan Script", cursive;
+    background: var(--mainGrey);
+    color: var(--mainBlack);
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    size: cover;
+}
+
+
+/* nav logo */
+
+#logo {
+    height: 30%;
+    width: 30%;
+}
+
+#logo-email {
+    height: 30%;
+    width: 30%;
+}
+
+
+/* nav logo */
+
+
+/* nav links */
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.toggler-icon {
+    font-size: 2.5rem;
+    color: var(--mainOrange);
+}
+
+.nav-link {
+    color: var(--mainOrange);
+    font-size: 1.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--mainBlack);
+}
+
+
+/* end of nav links */
+
+
+/* info icons */
+
+.cart-info__icon {
+    color: var(--mainBlack);
+    cursor: pointer;
+}
+
+.cart-info {
+    border: 0.1rem solid var(--mainBlack);
+    color: var(--mainBlack);
+    border-radius: 0.25rem;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+}
+
+.cart-info:hover {
+    background: var(--mainOrange);
+    border-color: var(--mainOrange);
+    color: var(--mainWhite);
+}
+
+.cart-info:hover .cart-info__icon {
+    color: var(--mainWhite);
+}
+
+
+/* end of info icons */
+
+
+/* banner */
+
+.cotainer-fluid {
+    size: cover;
+}
+
+.max-height {
+    min-height: calc(100vh - 78px);
+    background: url("images/hero-teq 12.jpg") center/cover fixed no-repeat;
+    position: relative;
+    width: 100%;
+    size: cover;
+}
+
+.banner {
+    color: var(--mainWhite);
+    margin-top: -5rem;
+    width: 100%;
+    size: cover;
+}
+
+.banner-title {
+    color: var(--mainOrange);
+    font-size: 3rem;
+}
+
+.btn1 {
+    margin-top: 1rem;
+}
+
+.img-fluid1 {
+    position: relative;
+    width: 100%;
+    size: cover;
+}
+
+.img-fluid {
+    position: relative;
+    width: 100%;
+}
+
+.banner-link {
+    font-size: 1rem;
+    color: var(--mainGreen);
+    border: 0.2rem solid var(--mainGreen);
+    margin: 3rem;
+}
+
+.banner-link:hover {
+    color: var(--mainGreen);
+    border: 0.2rem solid var(--mainOrange);
+}
+
+
+/* endo of banner */
+
+
+/* cart  */
+
+.cart {
+    position: absolute;
+    min-height: 10rem;
+    background: var(--mainWhite);
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.5);
+    width: 0;
+    overflow: hidden;
+}
+
+.show-cart {
+    width: 18rem;
+    padding: 2rem 1.5rem;
+    transform: rotateY(-360deg);
+}
+
+.cart-item {
+    transition: all 2s ease-in-out;
+}
+
+.img-fluid2 {
+    height: 30%;
+    width: 30%;
+}
+
+
+/* end of cart */
+
+
+/* cart item */
+
+.cart-item-remove {
+    color: var(--mainOrange);
+    transition: all 1s ease-in-out;
+}
+
+.cart-item-remove:hover {
+    transform: scale(1.1);
+    color: var(--mainBlack);
+}
+
+#cart-item-price {
+    font-size: 0.8rem;
+}
+
+
+/* cart item */
+
+
+/* cart buttons */
+
+.btn-orange {
+    color: var(--mainOrange) !important;
+    border-color: var(--mainOrange) !important;
+    border: solid 2px;
+}
+
+.btn-black {
+    color: var(--mainBlack) !important;
+    border-color: var(--mainBlack) !important;
+    border: solid 2px;
+}
+
+.btn-black:hover {
+    color: var(--mainOrange) !important;
+    background: transparent !important;
+}
+
+.btn-orange:hover {
+    color: var(--mainBlack) !important;
+    background: transparent!important;
+}
+
+
+/* end of cart buttons */
+
+
+/* about */
+
+.about-img__container {
+    position: relative;
+}
+
+.about-img__container::before {
+    content: "";
+    position: absolute;
+    top: -1.5rem;
+    left: -1.7rem;
+    width: 100%;
+    height: 100%;
+    outline: 0.5rem solid var(--mainYellow);
+    z-index: -1;
+    transition: all 1s ease-in-out;
+}
+
+.about-img__container:hover:before {
+    top: 0;
+    left: 0;
+}
+
+
+/*end of  about */
+
+
+/* store items */
+
+.store {
+    background: var(--mainGrey);
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.store-img {
+    transition: all 1s ease-in-out;
+}
+
+.img-container:hover .store-img {
+    transform: scale(1.2);
+}
+
+.store-item-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.75rem;
+    background: var(--mainYellow);
+    border-top-left-radius: 1rem;
+    transition: all 1s ease-in-out;
+    transform: translate(100%, 100%);
+}
+
+.img-container:hover .store-item-icon {
+    transform: translate(0, 0);
+}
+
+.store-item-icon:hover {
+    color: var(--mainWhite);
+}
+
+.store-item-value {
+    color: --mainYellow;
+}
+
+
+/*end of  store items */
+
+.search-box {
+    background: var(--mainOrange);
+    color: var(--mainBlack);
+}
+
+
+/* ligthbox */
+
+.lightbox-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.6) !important;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.lightbox-holder {
+    position: relative;
+}
+
+.lightbox-item {
+    min-height: 80vh;
+    background: url("../images/Hero-tea4.jpgs") center/cover fixed no-repeat;
+    border-radius: 0.3rem;
+}
+
+.lightbox-close {
+    color: var(--mainOrange);
+    font-size: 3rem;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.lightbox-close:hover {
+    color: var(--mainYellow);
+}
+
+.lightbox-control {
+    position: absolute;
+    font-size: 4rem;
+    color: var(--mainOrange);
+    transition: all 1s linear;
+    cursor: pointer;
+}
+
+.lightbox-control:hover {
+    color: var(--mainYellow);
+}
+
+.btnLeft {
+    top: 50%;
+    left: 0;
+    transform: translateX(-60%);
+}
+
+.btnRight {
+    top: 50%;
+    right: 0;
+    transform: translateX(60%);
+}
+
+
+/*footer*/
+
+.footer-title {
+    background: var(--mainGreen);
+}
+
+.footer-contact {
+    background: var(--mainOrange);
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    color: var(--mainBlack);
+    transition: all 0.4 ease-in-out;
+}
+
+.footer-icons-margin {
+    padding: 2.5rem;
+    margin: 4rem;
+}
+
+.footer-icon:hover {
+    color: var(--mainWhite);
+}
+
+#gmail {
+    color: var(--mainBlack);
+}
+
+#gmail:hover {
+    color: var(--mainWhite);
+}
+
+
+/*footer*/
+
+
+/*ani*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fadeIn {
+    transition-duration: 7s;
+    opacity: 0;
+    opacity: 1;
+    animation-duration: 9s;
+    animation-iteration-count: 1;
+    color: var(--mainOrange);
+}
+
+h3 {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Firefox < 16 */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+.content-wrapper img {
+    width: 100%;
+    size: cover;
+    margin-bottom: 3rem;
+}
+
+.text-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: 0;
+}
+
+.text-wrapper h3 {
+    text-align: center;
+    color: font 10px;
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 5px 5px 10 px;
+    color: var(--mainOrange);
+    margin-left: 6rem;
+}
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.zoomIn {
+    animation-duration: 9s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    color: var(--mainOrange);
+}
+
+
+/*email*/
+
+.pick {
+    background-image: url("../images/p.green-tea1*.jpg");
+    background-repeat: no-repeat;
+    size: cover;
+}
+
+
+/*.row {
+    margin: 0px;
+    position: center;
+    width: 100%;
+    height: 100%;
+    size: cover;
+}*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: var(--mainOrange);
+    color: var(--mainWhite);
+}

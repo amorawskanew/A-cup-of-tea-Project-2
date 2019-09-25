@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/text_over_image.css">
+    <!--email-->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_5uG66t9w4ZGSUkXk91ebG");
+        })();
+        emailjs.send("gmail", "blank", {
+            name: "Anna",
+            notes: "test"
+        });
+    </script>
+
+    <title>A cup of tea
+    </title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <!-- header -->
+    <header>
+        <!-- navbar  -->
+        <!-- 
+https://www.iconfinder.com/icons/2427887/dessert_donut_doughnut_fat_sweets_icon
+Creative Commons (Attribution 3.0 Unported);
+https://www.iconfinder.com/korawan_m
+-->
+        <nav class="navbar navbar-expand-lg px-4 fixed-top">
+            <a class="navbar-brand " href="# ">
+                <img src="images/logo10.png " class="img-fluid" id="logo" alt="">
+            </a>
+            <button class="navbar-toggler " type="button " data-toggle="collapse" data-target="#myNav ">
+          <span class="toggler-icon" id="our_home">
+            <i class="fas fa-bars ">
+            </i>
+          </span>
+        </button>
+            <div class="collapse navbar-collapse" id="myNav" id="home">
+                <ul class="navbar-nav mx-auto text-capitalize">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="#our_home">home
+              </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#about">about
+              </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#our-store">store
+              </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#contact">contact
+              </a>
+                    </li>
+                </ul>
+                <div class="nav-info-items d-none d-lg-flex ">
+                    <!-- phone number -->
+                    <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5 ">
+                        <span class="info-icon mx-lg-3 ">
+                <i class="fas fa-phone ">
+                </i>
+              </span>
+                        <p class="mb-0 ">+48 602 12 00
+                        </p>
+                    </div>
+                    <!-- end of phone number -->
+                    <!-- cart info -->
+                    <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
+                        <span class="cart-info__icon mr-lg-3">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        <p class="mb-0 text-capitalize">
+                            <span id="item-count">2 
+                </span> items - $
+                            <span class="item-total">10.49
+                </span>
+                        </p>
+                    </div>
+                    <!-- end of cart info -->
+
+                </div>
+            </div>
+        </nav>
+        <!-- end of nav -->
+
+        <!-- banner  -->
+        <div class="container-fluid">
+            <div class="row max-height justify-content-center align-items-center ">
+                <div class="content-wraper  mx-auto banner text-center ">
+
+                    <!-- animation-->
+                    <img src="images/Hero-tea6.jpg" class="img-fluid " id="item-img " alt=" ">
+                    <h3 class=" heading fadeIn zoomIn">A cup of tea</h3>
+
+                </div>
+
+                <!-- animation-->
+
+                <div class=btn1>
+                    <a href="#store " class="btn banner-link text-uppercase my-2 ">explore
+            </a>
+                </div>
+
+            </div>
+
+            <div id="cart" class="cart">
+                <!-- cart item -->
+                <div class="cart-item d-flex justify-content-between text-capitalize my-3 ">
+                    <img src="thumbnail_images/herbal_tea2.png " class="img-fluid2 rounded-circle " id="item-img " alt="">
+                    <div class="item-text ">
+                        <p id="cart-item-title " class="font-weight-bold mb-0 ">cart item
+                        </p>
+                        <span>$
+              </span>
+                        <span id="cart-item-price " class="cart-item-price " class="mb-0 ">10.99
+              </span>
+                    </div>
+                    <a href="# " id='cart-item-remove' class="cart-item-remove ">
+                        <i class="fas fa-trash ">
+              </i>
+                    </a>
+                </div>
+                <!--end of  cart item -->
+                <!-- cart item -->
+                <div class="cart-item d-flex justify-content-between text-capitalize my-3 ">
+                    <img src="thumbnail_images/b.pineapple-papaya-herbal_tea3.png" class="img-fluid2 rounded-circle " id="item-img " alt=" ">
+                    <div class="cart-item-text ">
+                        <p id="cart-item-title " class="font-weight-bold mb-0 ">cart item
+                        </p>
+                        <span>$
+              </span>
+                        <span id="cart-item-price " class="cart-item-price " class="mb-0 ">10.99
+              </span>
+                    </div>
+                    <a href="# " id='cart-item-remove' class="cart-item-remove ">
+                        <i class="fas fa-trash ">
+              </i>
+                    </a>
+                </div>
+                <!--end of  cart item -->
+                <!-- cart total -->
+                <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5 ">
+                    <h5>total
+                    </h5>
+                    <h5> $
+                        <strong id="cart-total " class="font-weight-bold ">10.00
+              </strong>
+                    </h5>
+                </div>
+                <!--end cart total -->
+                <!-- cart buttons -->
+                <div class="cart-buttons-container mt-3 d-flex justify-content-between ">
+                    <a href="# " id="clear-cart " class="btn btn-outline-secondary btn-black text-uppercase ">clear cart
+            </a>
+                    <a href="# " class="btn btn-outline-secondary text-uppercase btn-orange ">checkout
+            </a>
+                </div>
+                <!--end of  cart buttons -->
+                <!--  -->
+            </div>
+        </div>
+
+        <!--end of  banner  -->
+    </header>
+    <!-- header -->
+    <!-- about us -->
+    <section class="about py-5 " id="about">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-10 mx-auto col-md-6 my-5 ">
+                    <h1 class="text-capitalize ">about
+                        <strong class="banner-title ">us
+            </strong>
+                    </h1>
+                    <p class="my-4 text-muted w-75 ">We have a wide range of fresh teas! Our gourmet tea assortments will suit any occasion and any taste. Green tea, black tea, white tea, flavored tea and many others to surprise and astonish you! We are experts in tea and we will teach
+                        you this art with pleasure!
+                        <br>
+                        <p class="my-4 text-muted w-75 ">IF YOU ARE ALREADY A TEA LOVER, YOU WILL FIND A REAL PARADISE OF TEA AROMAS AND TASTES VISITING OUR TEA STORE.
+                        </p>
+                        <p class="my-4 text-muted w-75 ">Our goal is to fill your cup with joy you can share with family and friends. This old drink with a long history and deserved love of millions is worth of a proper attitude. We are ready to please tea beginners and tea gurus You
+                            can order tea samples to taste any tea from our collection and make your opinion what you like most of all. Our Tea store will be a small island of pleasure you are welcome to discover among everyday routine We have tea blends
+                            for any occasion and mood: taste our teas to wake up, relax, rejuvenate. VISIT OUR TEA STORE!
+                        </p>
+                        <a href="# " class="btn btn-outline-secondary btn-black text-uppercase ">explore
+          </a>
+                </div>
+                <div class="col-10 mx-auto col-md-6 align-self-center my-5 ">
+                    <div class="about-img__container ">
+                        <img src="images/hero-teq 12.jpg " class="img-fluid1 " alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about us -->
+    <!-- store -->
+    <section id="store " class="store py-5 ">
+        <div class="container ">
+            <!-- section title -->
+            <div class="row " id="our-store">
+                <div class="col-10 mx-auto col-sm-6 text-center ">
+                    <h1 class="text-capitalize ">our
+                        <strong class="banner-title ">store
+            </strong>
+                    </h1>
+                </div>
+            </div>
+            <!-- end of section title -->
+            <!--filter buttons -->
+            <div class="row ">
+                <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap ">
+                    <a href="# " class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 " data-filter="all "> all
+          </a>
+                    <a href="# " class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 " data-filter="cakes ">black tea
+          </a>
+                    <a href="# " class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 " data-filter="cupcakes ">green tea
+          </a>
+                    <a href="# " class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 " data-filter="sweets ">herbal tea
+          </a>
+                    <a href="# " class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 " data-filter="doughnuts ">special blend
+          </a>
+                </div>
+            </div>
+            <!-- search box -->
+            <div class="row ">
+                <div class="col-10 mx-auto col-md-6 ">
+                    <form>
+                        <div class="input-group mb-3 ">
+                            <div class="input-group-prepend ">
+                                <span class="input-group-text search-box " id="search-icon ">
+                  <i class="fas fa-search ">
+                  </i>
+                </span>
+                            </div>
+                            <input type="text " class="form-control " placeholder='item....' id="search-item ">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--end of filter buttons -->
+            <!-- store  items-->
+            <div class="row " class="store-items " id="store-items ">
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item black-tea " data-item="black-tea ">
+                    <div class="card ">
+                        <div class="img-container ">
+                            <img src="images/black_tea1.png " class="card-img-top store-img " alt=" ">
+                            <span class="store-item-icon ">
+                <i class="fas fa-shopping-cart ">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body ">
+                            <div class="card-text d-flex justify-content-between text-capitalize ">
+                                <h5 id="store-item-name ">black tea
+                                </h5>
+                                <h5 class="store-item-value ">$
+                                    <strong id="store-item-price " class="font-weight-bold ">5
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item green-tea " data-item="green-tea ">
+                    <div class="card ">
+                        <div class="img-container ">
+                            <img src="images/green_tea1.png " class="card-img-top store-img " alt=" ">
+                            <span class="store-item-icon ">
+                <i class="fas fa-shopping-cart ">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body ">
+                            <div class="card-text d-flex justify-content-between text-capitalize ">
+                                <h5 id="store-item-name ">green tea
+                                </h5>
+                                <h5 class="store-item-value ">$
+                                    <strong id="store-item-price " class="font-weight-bold ">5
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item herbal-tea " data-item="herbal-tea ">
+                    <div class="card ">
+                        <div class="img-container ">
+                            <img src="images/herbal_tea1.png " class="card-img-top store-img " alt=" ">
+                            <span class="store-item-icon ">
+                <i class="fas fa-shopping-cart ">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body ">
+                            <div class="card-text d-flex justify-content-between text-capitalize ">
+                                <h5 id="store-item-name ">herbal tea
+                                </h5>
+                                <h5 class="store-item-value ">$
+                                    <strong id="store-item-price " class="font-weight-bold ">5
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item special-blend " data-item="special-blend ">
+                    <div class="card ">
+                        <div class="img-container ">
+                            <img src="images/b.Pau-d'arco-herbal_tea5.png" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">special blend
+                                </h5>
+                                <h5 class="store-item-value">$
+                                    <strong id="store-item-price" class="font-weight-bold">5
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item black-tea" data-item="black-tea">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="images/black_tea2.png" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">black tea
+                                </h5>
+                                <h5 class="store-item-value">$
+                                    <strong id="store-item-price" class="font-weight-bold">10
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item green-tea" data-item="green-tea">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="images/green_tea2.png" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">green tea
+                                </h5>
+                                <h5 class="store-item-value">$
+                                    <strong id="store-item-price" class="font-weight-bold">10
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item herbal-tea" data-item="herbal-tea">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="images/herbal_tea2.png" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">herbal tea
+                                </h5>
+                                <h5 class="store-item-value">$
+                                    <strong id="store-item-price" class="font-weight-bold">10
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item special-blend" data-item="soecial blend">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="images/b.lemon-lavender_special_blend2.png" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">special blend
+                                </h5>
+                                <h5 class="store-item-value">$
+                                    <strong id="store-item-price" class="font-weight-bold">10
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item black-tea" data-item="black tea">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="images/black_tea3.png" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">black tea
+                                </h5>
+                                <h5 class="store-item-value">$
+                                    <strong id="store-item-price" class="font-weight-bold">15
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item green-tea" data-item="green-tea">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="images/green_tea3.png" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">green tea
+                                </h5>
+                                <h5 class="store-item-value">$
+                                    <strong id="store-item-price" class="font-weight-bold">15
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item herbal-tea" data-item="herbal-tea">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="images/herbal_tea3.png" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">herbal tea
+                                </h5>
+                                <h5 class="store-item-value">$
+                                    <strong id="store-item-price" class="font-weight-bold">15
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+                <!-- single item -->
+                <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item special-blend" data-item="special-blend">
+                    <div class="card ">
+                        <div class="img-container">
+                            <img src="images/b.pineapple-papaya-herbal_tea3.png" class="card-img-top store-img" alt="">
+                            <span class="store-item-icon">
+                <i class="fas fa-shopping-cart">
+                </i>
+              </span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text d-flex justify-content-between text-capitalize">
+                                <h5 id="store-item-name">special blend
+                                </h5>
+                                <h5 class="store-item-value">$
+                                    <strong id="store-item-price" class="font-weight-bold">15
+                  </strong>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of card-->
+                </div>
+                <!--end of single store item-->
+            </div>
+    </section>
+    <!--footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 footer-title py-5">
+                    <h1 class="text-capitalize text-center">
+                        <strong class="banner-title">A cup of tea
+                </strong>
+
+                    </h1>
+                    <div class="footer-icons-margin footer-icons mt-3 d-flex justify-content-around flex-wrap">
+                        <a href="http://www.facebook.com/besttea" class="footer-icon"> <i class="fab fa-facebook">
+                </i>
+                        </a>
+                        <a href="https://twitter.com/englishteastore" class="footer-icon"> <i class="fab fa-twitter">
+                </i>
+                        </a>
+                        <a href="https://nl.pinterest.com/englishteastore/" class="footer-icon"> <i class="fab fa-instagram">
+                </i>
+                        </a>
+                        <a href="https://blog.englishteastore.com/" class="footer-icon"> <i class="fab fa-google-plus">
+                </i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 footer-contact text-center text-capitalize p-5">
+                    <h3 class="mb-5" id="contact">
+                        contact
+                    </h3>
+                    <p class="d-flex flex-wrap"> <span class="mr-4 footer-icon">
+                <i class="fas fa-map">
+                </i>
+              </span>
+                        <span>
+                150 Baker street, London, UK 
+              </span>
+                    </p>
+                    <p class="d-flex flex-wrap"> <span class="mr-4 footer-icon "><a href="email.html">
+                <i id="gmail" class="fas fa-envelope">
+                </i></a>
+              </span>
+                        <span> 
+                filmauditions@gmil.com 
+              </span>
+                    </p>
+                    <p class="d-flex flex-wrap"> <span class="mr-4 footer-icon">
+                <i id="gmail"class="fas fa-phone">
+                </i>
+              </span>
+                        <span>
+                + 48 602 12 00 
+              </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer end -->
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js">
+    </script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js">
+    </script>
+    <!-- script js -->
+    <script src="js/app.js">
+    </script>
+    <!-- script js fontawsome-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'>
+    </script>
+    <script src="assets/js/sendEmail.js">
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+<!-- modal-container 
+<div class="container-fluid ">
+    <div class="row lightbox-container align-items-center">
+        <div class="col-10 col-md-10 mx-auto text-right lightbox-holder">
+            <span class="lightbox-close">
+          <i class="fas fa-window-close">
+          </i>
+        </span>
+            <div class="lightbox-item">
+            </div>
+            <span class="lightbox-control btnLeft">
+          <i class="fas fa-caret-left">
+          </i>
+        </span>
+            <span class="lightbox-control btnRight">
+          <i class="fas fa-caret-right">
+          </i> 
+        </span>
+        </div>
+    </div>
+</div> -->
