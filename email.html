@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Acup of tea</title>
-
-
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- main css -->
@@ -19,127 +14,121 @@
     <!-- animation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/text_over_image.css">
-    <!--email-->
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-            emailjs.init("user_5uG66t9w4ZGSUkXk91ebG");
-        })();
-        emailjs.send("gmail", "blank", {
-            name: "Anna",
-            notes: "test"
-        });
-    </script>
 
-    <title>A cup of tea</title>
+    <title>A cup of tea
+    </title>
     <style>
 
     </style>
-
 </head>
 
-<body>
-    <!-- header -->
+
+<!--email-->
+<script src="js/app-email.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init("user_5uG66t9w4ZGSUkXk91ebG");
+    })();
+    emailjs.send("gmail", "blank", {
+        name: "Anna",
+        notes: "test"
+    });
+</script>
+
+
+<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init("user_5uG66t9w4ZGSUkXk91ebG");
+    })();
+</script>
+
+<title>A cup of tea</title>
+<style>
+
+</style>
+</head>
+
+<body class="background-picture img-responsive  ">
+
     <header>
-        <div class="hero">
-            <!-- navbar  -->
-
-            <!-- 
-    https://www.iconfinder.com/icons/2427887/dessert_donut_doughnut_fat_sweets_icon
-    Creative Commons (Attribution 3.0 Unported);
-    https://www.iconfinder.com/korawan_m
-    -->
-            <nav class="navbar navbar-expand-lg px-4 fixed-top">
-                <a class="navbar-brand " href="# ">
-                    <img src="images/logo10.png " class="img-fluid" id="logo-email" alt="">
-                </a>
-                <button class="navbar-toggler " type="button " data-toggle="collapse" data-target="#myNav ">
-              <span class="toggler-icon" id="our_home">
-                <i class="fas fa-bars ">
-                </i>
-              </span>
-            </button>
-                <div class="collapse navbar-collapse" id="myNav" id="home">
-                    <ul class="navbar-nav mx-auto text-capitalize">
-                        <li class="nav-item active">
-                            <a class="nav-link " href="#our_home">home
-                  </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="#about">about
-                  </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="#our-store">store
-                  </a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="#contact">contact
-                  </a>
-                        </li>
-                    </ul>
-                    <div class="nav-info-items d-none d-lg-flex ">
-                        <!-- phone number -->
-                        <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5 ">
-                            <span class="info-icon mx-lg-3 ">
-                    <i class="fas fa-phone ">
+        <!-- navbar  -->
+        <nav id="nav-color" class="  navbar navbar-expand-lg px-4 fixed-top">
+            <a class="navbar-brand " href="# ">
+                <img src="images/logo10.png " class="img-fluid" id="logo" alt="">
+            </a>
+            <button class="navbar-toggler " type="button " data-toggle="collapse" data-target="#myNav ">
+                  <span class="toggler-icon" id="our_home">
+                    <i class="fas fa-bars ">
                     </i>
                   </span>
-                            <p class="mb-0 ">+48 602 12 00
-                            </p>
-                        </div>
-                        <!-- end of phone number -->
-                        <!-- cart info -->
-                        <div id="cart-info" class="nav-info align-items-center cart-info d-flex justify-content-between mx-lg-5">
-                            <span class="cart-info__icon mr-lg-3">
-                    <i class="fas fa-shopping-cart">
-                    </i>
-                  </span>
-                            <p class="mb-0 text-capitalize">
-                                <span id="item-count">2 
-                    </span> items - $
-                                <span class="item-total">10.49
-                    </span>
-                            </p>
-                        </div>
-                        <!-- end of cart info -->
+                </button>
+            <div class="collapse navbar-collapse" id="myNav" id="home">
+                <ul class="navbar-nav mx-auto text-capitalize">
+                    <li class="nav-item active">
+                        <a class="nav-link " href="index.html">home
+                      </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index.html">about
+                      </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index.html">store
+                      </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index.html">contact
+                      </a>
+                    </li>
+                </ul>
+                <div class="nav-info-items d-none d-lg-flex ">
+                    <!-- phone number -->
+                    <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5 ">
+                        <span class="info-icon mx-lg-3 ">
+                        <i class="fas fa-phone ">
+                        </i>
+                      </span>
+                        <p class="mb-0 ">+48 602 12 00
+                        </p>
+                    </div>
+                    <!-- end of phone number -->
 
+
+                </div>
+            </div>
+        </nav>
+        <!-- end of nav -->
+
+        <div class="col-10 col-sm-6 row-email mx-auto ">
+            <!--email box-->
+            <section class="container-fluid-email ">
+                <div class="row-mail bg-color-contact">
+                    <div class="center-form contact-heading">
+                        <form onsubmit="return sendMail(this);">
+                            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="filmauditions@gmail.com" required/>
+                            <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Your message" required></textarea>
+                            <button type="submit" class="btn2 btn-secondary center-block">Send </button>
+                        </form>
                     </div>
                 </div>
-            </nav>
-            <!-- end of nav -->
-
-            <!-- banner  -->
-
-
-
-
-
-
-
-            <div class="col-10 col-sm-6 row-email mx-auto ">
-
-
-                <!--email box-->
-
-                <section class=" max-height-email ">
-                    <div class="row-mail ">
-                        <div class="justify-content-center align-items-center">
-                            <div class="center-form contact-heading">
-                                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Your message" required></textarea>
-                                <button type="submit" class="btn2 btn-secondary center-block ">SEND</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--end of email box-->
-            </div>
-
-            <!-- end of banner  -->
+            </section>
         </div>
+    </header>
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js">
+    </script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js">
+    </script>
+    <!-- script js -->
+    <script src="js/app.js">
+    </script>
+    <!-- script js fontawsome-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'>
+    </script>
 
 </body>
 

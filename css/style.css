@@ -41,6 +41,11 @@ body {
 
 /* nav links */
 
+#nav-color {
+    background-color: green;
+    opacity: 0.8;
+}
+
 .navbar-toggler {
     outline: none !important;
 }
@@ -521,11 +526,17 @@ h3 {
 
 /*email*/
 
-.hero {
-    background-image: url("Hero-tea7.jpg");
-    background-repeat: no-repeat;
-    background-image: cover;
-    width: 100%;
+.background-picture {
+    background: url("/Users/Anna/Downloads/node-v10.16.0 3/Project 2/images/*mt-0324-tea-img06-bg.jpg") center/cover no-repeat;
+}
+
+.container-fluid-email {
+    margin-top: 12rem;
+}
+
+.email-font {
+    font-family: serif;
+    font-size: 5px;
 }
 
 .max-height-email {
@@ -542,7 +553,8 @@ h3 {
 }
 
 .row-email {
-    margin-left: 4rem;
+    margin-left: 5rem;
+    margin-bottom: 30rem;
     position: center;
     background: linear-gradient(var(--yellowTrans), var(--orangeTrans)), url("images/hero-teq 12.jpg") center/cover fixed no-repeat;
 }
@@ -565,7 +577,8 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: var(--mainOrange);
     color: var(--mainWhite);
-    margin-left: 39%;
+    margin-left: 37%;
+    margin-bottom: 5rem;
     width: 70px;
     border: 2 px var(--mainBlack);
     border-radius: 7% 7% 7% 7%;
@@ -579,3 +592,19 @@ button[type="submit"] {
 
 
 /* end of email*/
+
+
+/*green tea page css*/
+
+.green-tea-animation-color {
+    color: rgb(19, 36, 26);
+}
+
+#heading-change-position {
+    margin-bottom: 1rem;
+    padding: 0rem;
+}
+
+#btn-green-tea {
+    position: center;
+}
