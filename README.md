@@ -27,6 +27,7 @@ css/bootstrap.min.css
  'https://kit.fontawesome.com/a076d05399.js
 *animate website - for text animation
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
      
 Links to websites/ pictures/ video tutorials that I used when working on my projects:
 
