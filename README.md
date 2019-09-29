@@ -5,7 +5,7 @@ My intention was to create an e-commerce website for small/medium businesses. I 
 Things that didn't go the way I had planned are as follows:
 
 1. Shopping cart- I was very excited to be finally able to put in practice my js skills. I spent considerable amount of time reading and watching online tutorials on how to design an ecommerce website with shopping cart, but when  I started to write a code myself it took q life of its own. Whenever I wanted to console.log a part of my code to see if it works, I would always get an error notification. I put all my shopping cart Js code in( app- js) file and disabled it, because it was effecting other parts of my website. I intend to finish my shopping cart later when I have more coding experience.
-2. Emai box-I set up my email according to the code institute video tutorials and it all worked beautifully in my AWS text editor. However, since AWS doesn't support all the features ( like for example css grid...  etc.) I decided to move it to Visual studio, which I am very happy with. But, then I noticed that my emai page doesn't work anymore. I asked both my mentor and tutors to have a look at it. They run the code on their machines and said everything was ok. ..Maybe it was, but I sill don't know why it doesn't work on my computer.
+2. Email box-I set up my email according to the code institute video tutorials and it all worked beautifully in my AWS text editor. However, since AWS doesn't support all the features ( like for example css grid...  etc.) I decided to move it to Visual studio, which I am very happy with. But, then I noticed that my emai page doesn't work anymore. I asked both my mentor and tutors to have a look at it. They run the code on their machines and said everything was ok. ..Maybe it was, but I sill don't know why it doesn't work on my computer.
 
 What I am happy about is that my text animation worked the way I wanted. Initially, I was planning a text animation that  simulates handwriting (I think it would fit better in the mood of my tea website), but this required SVG files, which I am not that familiar with. 
 I also spent a significant amount of time on online doing research for my website and managed to find nice quality tea pictures, which I used for my project. 
@@ -45,8 +45,9 @@ Features:
 1.Landing page and navigation bar allows users to get familiar with what the website is about and the menu( home, about, products, contact)
 
 2.About us -provides a general background about the company and its products. it allows users to get an idea about the company and its products and services.
-3.Products- in this section of the website users can see full selection of the products. By clicking on a shopping cart of selected tea they can purchase it. Later I will also create  a card online payment section.
-There is also a button for each type of tea ( black tea, green  tea,herbal tea, special blend) connecting to the page where they can get more detailed information about the product(s) of their choice. For now, I included only a landing page  and  pictures of the same product type  ( for example only black tea..), but later on I would like to add more information  about each group of the products and also add a GIFT section, where customers could choose a product, packaging and delivery method( normal or express).
+3.Our store (Products)- in this section of the website users can see full selection of the products. By clicking on a shopping cart of selected tea they can purchase it. Later I will also create  a card online payment section.
+There is also a button for each type of tea ( black tea, green  tea,herbal tea, special blend) connecting to the page where they can get more detailed information about the product(s) of their choice. For now, I included only a landing page  and  pictures of the same product type  ( for example only black tea..), but later on I would like to add more information  about each group of the products and also add a GIFT section, where customers could choose a product, packaging and delivery method( normal or express). 
+"Seach box" seemed like a good idea at the beginning, but as I was workig on the project I realized that I habve all my 12 products  desplayed in "Our store" section on the main page. I wanted to remove it, but my tutor suggested that I should keep it for now as I might be adding more products later.
 
 4.Contact- in contact section I have two subsections:
 *the green one  with all the social links, Fb, Instagram, Twitter, Google which I connected to some tea website,  just to test if my website works.
@@ -79,7 +80,7 @@ I switched from AWS text editor to Visual studio andI had to practice first how 
   
 Deployment went pretty well.There wasn't any differences between development and deployed version except for my email.html file background picture( css/style.css class= background-picture) that disappeared. I manimulted this picture in photoshop and made it look the way I wanted ( resized/blured..), but deployed version didn't appreciated my artistic efforts:)) and rejected it. I used insted one of online pictures.
 Also, my READme file looks slightly different from my original version, some parts of the text are misplaced and all th colors and bold/italic styles are gone too.  
-Also, my deployed version seems to be loading slower than my developement one. I have removed some of extra files (pictures, notes- and it did help a bit, but didn't eliminat the problem entirely. Sometimes it workes very well other times thereis a delay between loading the pictures and the rest of the wbsite. )
+Also, my deployed version seems to be loading slower than my developement one. I have removed some of extra files (pictures, notes- and it did help a bit, but didn't eliminat the problem entirely. Sometimes it workes very well other times thereis a delay between loading the pictures and the rest of the wbsite.)
 
 
 Credits
