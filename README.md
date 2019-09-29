@@ -12,8 +12,9 @@ I also spent a significant amount of time on online doing research for my websit
 I experimented with different font sizes/styles, adding some shadow to make it pop out of the screen and add a bit of 3d feel. Styling was a very enjoyable part of the work because I could see immediate results and ask for feedback. I have created 3 different text styles and ask my friends to choose the  one they liked best. About 70% voted for my orange fonts, so I decided to include them in my project.
 
 technologies/languages I used in my project:
-I switched from AWS cloud9c to Visual studio, because AWS didn't support all the tools I wanted to use and also I am running out of credits ( only 24$ left
-) 
+I switched from AWS cloud9c to Visual studio, because AWS didn't support all the tools I wanted to use and also I am running out of credits ( only 24$ left)
+
+
 *HTML-to provide structure for my website
 *CSS- to style my website   
 css/bootstrap.min.css
