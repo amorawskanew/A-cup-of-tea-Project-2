@@ -77,13 +77,9 @@ by clicking on a button and making sure that I go where I want to. It all worked
 
 I switched from AWS text editor to Visual studio andI had to practice first how to push my project into github, which was quite easy, but if you do it for the first time it always takes time.
   
-I will deploy the project after finishing writing my READme report and will see if there is any differences between development and deployed version.
+Deployment went pretty well.There wasn't any differences between development and deployed version except for my email.html file background picture( css/style.css class= background-picture) that disappeared. I manimulted this picture in photoshop and made it look the way I wanted ( resized/blured..), but deployed version didn't appreciated my artistic efforts:)) and rejected it. I used insted one of online pictures.
+Also, my READme file looks slightly different from my original version, some parts of the text are misplaced and all th colors and bold/italic styles are gone too.  
 
-Here are the questions from READme example file which I don't quite understand. I hope I will be able to answer them in my next project.
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
 
 Credits
 
