@@ -46,9 +46,9 @@ Features:
 
 2.About us -provides a general background about the company and its products. it allows users to get an idea about the company and its products and services.
 3.Products- in this section of the website users can see full selection of the products. By clicking on a shopping cart of selected tea they can purchase it. Later I will also create  a card online payment section.
-There is also a button for each type of tea ( black tea, green  tea, herbal tea, special blend) connecting to the page where they can get more detailed information about the product(s) of their choice. For now, I included only a landing page  and  pictures of the same product type  ( for example only black tea..), but later on I would like to add more information  about each group of the products and also add a GIFT section, where customers could choose a product, packaging and delivery method( normal or express).
+There is also a button for each type of tea ( black tea, green  tea,herbal tea, special blend) connecting to the page where they can get more detailed information about the product(s) of their choice. For now, I included only a landing page  and  pictures of the same product type  ( for example only black tea..), but later on I would like to add more information  about each group of the products and also add a GIFT section, where customers could choose a product, packaging and delivery method( normal or express).
 
-4. Contact- in contact section I have two subsections:
+4.Contact- in contact section I have two subsections:
 *the green one  with all the social links, Fb, Instagram, Twitter, Google which I connected to some tea website,  just to test if my website works.
 *the orange section has a telephone number (not active), email icon connecting to the email box and a map icon (I was alsoconsidering adding a map with the shop location, but that's optional since the online shop doesn't really need to have any conventional setting.I wanted to practice with Google maps, but the website kept on asking me about my credit card number.
 
