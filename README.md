@@ -15,7 +15,7 @@ technologies/languages I used in my project:
 I switched from AWS cloud9c to Visual studio, because AWS didn't support all the tools I wanted to use and also I am running out of credits ( only 24$ left).
 
 *HTML-to provide structure for my website.
-css/bootstrap.min.css
+*css to style my page <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/text_over_image.css">
 *Js- to create animation elements of the web and working of the email and shopping cart
 <script src="assets/js/sendEmail.js">
