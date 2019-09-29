@@ -9,6 +9,7 @@
     --orangeTrans: #eb5f1fec;
     --mainGrey: rgb(238, 238, 238);
     --mainGreen: rgb(46, 87, 22);
+    --mainGreen1: rgb(94, 151, 24);
 }
 
 * {
@@ -60,12 +61,24 @@ img {
     color: var(--mainOrange);
     font-size: 1.5rem;
     transition: all 0.5s ease-in-out;
-    text-shadow: 2px 2px black;
+    text-shadow: 1.7px 1.7px black;
 }
 
 .nav-link:hover {
-    color: var(--mainBlack);
-    text-shadow: none
+    color: var(--mainGreen1);
+}
+
+.phone_number {
+    color: var(--mainOrange);
+    text-shadow: 1px 1px black;
+}
+
+.phone_number:hover {
+    color: var(--mainGreen1);
+}
+
+#fas-fa-phone {
+    color: var(--mainGreen1);
 }
 
 

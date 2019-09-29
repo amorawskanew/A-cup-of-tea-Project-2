@@ -612,8 +612,8 @@ pre code {
 
 .container-fluid {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0.5x;
+    padding-left: 0.5px;
     margin-right: auto;
     margin-left: auto
 }
@@ -9267,9 +9267,3 @@ a.text-dark:hover {
         border-color: #dee2e6
     }
 }
-
-
-/*# sourceMappingURL=bootstrap.min.css.map */
-
-© 2019 GitHub,
-Inc.
