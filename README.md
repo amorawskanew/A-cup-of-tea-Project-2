@@ -79,6 +79,7 @@ I switched from AWS text editor to Visual studio andI had to practice first how 
   
 Deployment went pretty well.There wasn't any differences between development and deployed version except for my email.html file background picture( css/style.css class= background-picture) that disappeared. I manimulted this picture in photoshop and made it look the way I wanted ( resized/blured..), but deployed version didn't appreciated my artistic efforts:)) and rejected it. I used insted one of online pictures.
 Also, my READme file looks slightly different from my original version, some parts of the text are misplaced and all th colors and bold/italic styles are gone too.  
+Also, my deployed version seems to be loading slower than my developement one. I have removed some of extra files (pictures, notes- and it did help a bit, but didn't eliminat the problem entirely. Sometimes it workes very well other times thereis a delay between loading the pictures and the rest of the wbsite. )
 
 
 Credits
